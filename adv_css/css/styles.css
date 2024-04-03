@@ -1,0 +1,183 @@
+/* Global Styles */
+
+body {
+    background-color: #fec601ff;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #2364aaff;
+}
+
+a:hover {
+    color: #ea7317ff;
+    text-decoration: none;
+}
+
+#container {
+    background-color: #73bfb8ff;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+}
+
+/* Desktop Styles */
+
+nav {
+    background-color: #ea7317ff;
+    padding: 5px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: white
+}
+
+header h1 {
+    text-align: center;
+    font-size: 75px;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    padding: 0px;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #2364aaff;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col img {
+    border-radius: 20px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+}
+
+.buttonproduct {
+    display: block;
+    background-color: #ea7317ff;
+    width: 400px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonproduct:hover {
+    color: #2364aaff;
+}
+
+.button {
+    display: block;
+    background-color: #ea7317ff;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: #2364aaff;
+}
+
+#about {
+    display: inline;
+}
+
+.aboutcover {
+    margin: 10px;
+}
+
+.aboutcover img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#chewtoys {
+    display: flex;
+}
+
+.chewtoy {
+    margin: 10px;
+}
+
+.chewtoy img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#xpacs {
+    display: inline;
+}
+
+.xpaccover {
+    margin: 10px;
+}
+
+.xpaccover img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
