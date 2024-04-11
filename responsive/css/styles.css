@@ -87,24 +87,7 @@ footer {
     text-align: center;
 }
 
-.buttonproduct {
-    display: block;
-    background-color: #ea7317ff;
-    width: 400px;
-    height: 40px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    line-height: 35px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.buttonproduct:hover {
-    color: #2364aaff;
-}
 
 .button {
     display: block;
@@ -124,49 +107,6 @@ footer {
     color: #2364aaff;
 }
 
-#about {
-    display: inline;
-}
-
-.aboutcover {
-    margin: 10px;
-}
-
-.aboutcover img {
-    display: block;
-    width: 100%;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#chewtoys {
-    display: flex;
-}
-
-.chewtoy {
-    margin: 10px;
-}
-
-.chewtoy img {
-    display: block;
-    width: 100%;
-    border-radius: 20px;
-}
-
-#xpacs {
-    display: inline;
-}
-
-.xpaccover {
-    margin: 10px;
-}
-
-.xpaccover img {
-    display: block;
-    width: 100%;
-    border-radius: 20px;
-}
 
 /* Tablet Styles */
 
