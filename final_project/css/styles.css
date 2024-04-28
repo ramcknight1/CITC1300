@@ -1,0 +1,335 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #c4dacfff;
+}
+
+#container {
+    background-color: #eaebedff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a {
+    color: #2364aaff;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+nav {
+    background-color: #01a7c2ff;
+    padding: 10px;
+    border: 2px solid #818479ff;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    background-color: #a3bac3ff;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #818479ff;
+}
+
+main {
+    border: 2px solid #818479ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#content_lower {
+    padding: 20px;
+}
+
+.home_col {
+    border: 2px solid #818479ff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid #818479ff;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.home_button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #01a7c2ff;
+    color: white;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid #818479ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.flavor_button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #01a7c2ff;
+    color: white;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid #818479ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.home_button:hover {
+    color: #141b41ff;
+}
+
+.flavor_button:hover {
+    color: #141b41ff;
+}
+
+.aboutcover {
+    margin: 10px;
+}
+
+.aboutcover img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button_recipe {
+    display: block;
+    background-color: #141b41ff;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_recipe:hover {
+    color: #01a7c2ff;
+}
+
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 400px;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    hr {
+        margin-bottom: 80px;
+    }
+
+    #content p {
+        font-size: 25px;
+    }
+
+    #content_lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .home_col img {
+        width: 75%;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+    #content {
+        display: inline;
+    }
+
+    .button_recipe {
+        width: 400px;
+        height: 75px;
+        line-height: 70px;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .home_button {
+        width: 400px;
+        height: 75px;
+        line-height: 70px;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .flavor_button {
+        width: 400px;
+        height: 75px;
+        line-height: 70px;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1026px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    nav li {
+        margin: 10px;
+    }
+
+    nav li a {
+        display: inline;
+        margin: 8px;
+        font-size: 30px;
+    }
+    
+    #content_lower {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutcover img {
+        width: 50%
+    }
+
+    .home_col {
+        width: 27.5%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .col {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .col img {
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .flavor_button {
+        width: 300px;
+        height: 65px;
+        line-height: 60px;
+    }
+
+    .home_button {
+        width: 200px;
+        height: 65px;
+        line-height: 60px;
+        font-size: 24px;
+    }
+}
